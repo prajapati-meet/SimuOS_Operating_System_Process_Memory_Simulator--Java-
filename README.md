@@ -29,42 +29,42 @@ integration using pure Java.
 
 # Key Features with Design Pattern :
 
-  - Singleton – Kernel :
-    Ensures only one OS kernel instance exists.
+  - Singleton – Kernel :<br>
+    &nbsp;Ensures only one OS kernel instance exists.
     
   - Factory – ProcessFactory :
-    Encapsulates process creation logic.
+    &nbsp;Encapsulates process creation logic.
     
   - State – Process Lifecycle :
-    Encapsulates behavior for:
-        1) Ready<br>
-        2) Running<br>
-        3) Waiting<br>
-        4) Terminated<br>
-    Removes conditional state handling.
+    &nbsp;Encapsulates behavior for:<br>
+        &nbsp;&nbsp;1) Ready<br>
+        &nbsp;&nbsp;2) Running<br>
+        &nbsp;&nbsp;3) Waiting<br>
+        &nbsp;&nbsp;4) Terminated<br>
+    &nbsp;Removes conditional state handling.
     
   - Strategy – Scheduler :
-    Allows switching between:
-        1) FCFS
-        2) Round Robin
-    Without modifying Process class.
+    &nbsp;Allows switching between:<br>
+        &nbsp;&nbsp;1) FCFS<br>
+        &nbsp;&nbsp;2) Round Robin<br>
+    &nbsp;Without modifying Process class.
     
   - Observer – Resource Monitoring :
-    Notifies CPU and Memory observers when:
-        1)State changes
-        2)Memory Allocation occurs
+   &nbsp;Notifies CPU and Memory observers when:<br>
+        &nbsp;&nbsp;1)State changes<br>
+        &nbsp;&nbsp;2)Memory Allocation occurs<br>
 
   - Composite – File System :
-    Represents hierarchical structure of:
-        1) Directories
-        2) Files
-    Uniform interface for both.
+    &nbsp;Represents hierarchical structure of:<br>
+        &nbsp;&nbsp;1) Directories<br>
+        &nbsp;&nbsp;2) Files<br>
+    &nbsp;Uniform interface for both.
     
   - Flyweight – Memory Blocks :
-    Reuses memory blocks of same size to reduce object creation.
+    &nbsp;Reuses memory blocks of same size to reduce object creation.
     
   - Iterator – Process Traversal :
-    Custom iterator for process queue.
+    &nbsp;Custom iterator for process queue.
 
 
 #  Learning Outcomes
