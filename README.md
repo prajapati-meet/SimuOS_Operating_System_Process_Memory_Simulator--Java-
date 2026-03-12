@@ -79,12 +79,12 @@ This project helped in understanding:
 
 
 # How to Run 
-  1) Clone the repository
-      -git clone https://github.com/prajapati-meet/SimuOS.git
+  1) Clone the repository<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;-git clone https://github.com/prajapati-meet/SimuOS.git
 
   2) Open the project in Eclipse IDE
-  3) Run:
-       -Main.java
+  3) Run:<br>
+       &nbsp;&nbsp;&nbsp;&nbsp;-Main.java
 
 #  Author
 
