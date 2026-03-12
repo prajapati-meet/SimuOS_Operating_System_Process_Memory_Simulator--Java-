@@ -37,22 +37,22 @@ integration using pure Java.
     
   - State – Process Lifecycle :
     Encapsulates behavior for:
-        -1) Ready
-        -2) Running
-        -3) Waiting
-        -4) Terminated
+        1) Ready
+        2) Running
+        3) Waiting
+        4) Terminated
     Removes conditional state handling.
     
   - Strategy – Scheduler :
     Allows switching between:
-        -1) FCFS
-        -2) Round Robin
+        1) FCFS
+        2) Round Robin
     Without modifying Process class.
     
   - Observer – Resource Monitoring :
     Notifies CPU and Memory observers when:
-        -1)State changes
-        -2)Memory Allocation occurs
+        1)State changes
+        2)Memory Allocation occurs
 
   - Composite – File System :
     Represents hierarchical structure of:
