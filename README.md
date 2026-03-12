@@ -30,41 +30,41 @@ integration using pure Java.
 # Key Features with Design Pattern :
 
   - Singleton – Kernel :<br>
-    &nbsp;Ensures only one OS kernel instance exists.
+    Ensures only one OS kernel instance exists.
     
-  - Factory – ProcessFactory :
-    &nbsp;Encapsulates process creation logic.
+  - Factory – ProcessFactory : <br>
+    Encapsulates process creation logic.
     
-  - State – Process Lifecycle :
-    &nbsp;Encapsulates behavior for:<br>
-        &nbsp;&nbsp;1) Ready<br>
-        &nbsp;&nbsp;2) Running<br>
-        &nbsp;&nbsp;3) Waiting<br>
-        &nbsp;&nbsp;4) Terminated<br>
-    &nbsp;Removes conditional state handling.
+  - State – Process Lifecycle :<br>
+    Encapsulates behavior for:<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;1) Ready<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;2) Running<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;3) Waiting<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;4) Terminated<br>
+    Removes conditional state handling.
     
-  - Strategy – Scheduler :
-    &nbsp;Allows switching between:<br>
-        &nbsp;&nbsp;1) FCFS<br>
-        &nbsp;&nbsp;2) Round Robin<br>
-    &nbsp;Without modifying Process class.
+  - Strategy – Scheduler :<br>
+    Allows switching between:<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;1) FCFS<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;2) Round Robin<br>
+    Without modifying Process class.
     
-  - Observer – Resource Monitoring :
-   &nbsp;Notifies CPU and Memory observers when:<br>
-        &nbsp;&nbsp;1)State changes<br>
-        &nbsp;&nbsp;2)Memory Allocation occurs<br>
+  - Observer – Resource Monitoring :<br>
+    Notifies CPU and Memory observers when:<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;1)State changes<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;2)Memory Allocation occurs<br>
 
-  - Composite – File System :
-    &nbsp;Represents hierarchical structure of:<br>
-        &nbsp;&nbsp;1) Directories<br>
-        &nbsp;&nbsp;2) Files<br>
-    &nbsp;Uniform interface for both.
+  - Composite – File System :<br>
+    Represents hierarchical structure of:<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;1) Directories<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;2) Files<br>
+    Uniform interface for both.
     
-  - Flyweight – Memory Blocks :
-    &nbsp;Reuses memory blocks of same size to reduce object creation.
+  - Flyweight – Memory Blocks :<br>
+    Reuses memory blocks of same size to reduce object creation.
     
-  - Iterator – Process Traversal :
-    &nbsp;Custom iterator for process queue.
+  - Iterator – Process Traversal :<br>
+    Custom iterator for process queue.
 
 
 #  Learning Outcomes
