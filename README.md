@@ -37,10 +37,10 @@ integration using pure Java.
     
   - State – Process Lifecycle :
     Encapsulates behavior for:
-        1) Ready
-        2) Running
-        3) Waiting
-        4) Terminated
+        1) Ready<br>
+        2) Running<br>
+        3) Waiting<br>
+        4) Terminated<br>
     Removes conditional state handling.
     
   - Strategy – Scheduler :
@@ -85,13 +85,6 @@ This project helped in understanding:
   2) Open the project in Eclipse IDE
   3) Run:
        -Main.java
-
-
-# Architecture Diagram
-
-The system architecture UML diagram was generated using PlantUML.
-
-![SimuOS UML Diagram](docs/architecture.png)
 
 #  Author
 
