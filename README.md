@@ -80,7 +80,8 @@ This project helped in understanding:
 
 # How to Run 
   1) Clone the repository<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;-git clone https://github.com/prajapati-meet/SimuOS.git
+      &nbsp;&nbsp;&nbsp;&nbsp;-git clone https://github.com/prajapati-meet/SimuOS_Operating_System_Process_Memory_Simulator--Java-.git
+
 
   2) Open the project in Eclipse IDE
   3) Run:<br>
